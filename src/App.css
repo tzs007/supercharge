@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-image: url('/supercharge-logo-dark.svg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* LOGO */
+.logo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+/* NAVBAR */
+.navbar {
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 700;
+}
+
+/* FORM */
+.form-group {
+  width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+}
+
+/* HIGHSCORES */
+.highscore {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 2rem;
+}
